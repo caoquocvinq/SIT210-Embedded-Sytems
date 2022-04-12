@@ -1,7 +1,8 @@
 import RPi.GPIO as GPIO
 import time
 from gpiozero import PWMLED
-
+#reference: https://tutorials-raspberrypi.com/raspberry-pi-ultrasonic-sensor-hc-sr04/
+#reference: https://gpiozero.readthedocs.io/en/stable/api_output.html
 GPIO.setmode(GPIO.BCM)
 
 led = PWMLED(17)
